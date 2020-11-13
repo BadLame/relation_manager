@@ -1,0 +1,442 @@
+[2020-10-10 22:17:37] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "october" is not defined.
+
+Did you mean one of these?
+    october:down
+    october:env
+    october:fresh
+    october:install
+    october:mirror
+    october:passwd
+    october:up
+    october:update
+    october:util in /home/me/projs/octoberCMS/vendor/symfony/console/Application.php:646
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(236): Symfony\Component\Console\Application->find()
+#1 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#4 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#5 {main}  
+[2020-10-10 22:17:45] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "october" is not defined.
+
+Did you mean one of these?
+    october:down
+    october:env
+    october:fresh
+    october:install
+    october:mirror
+    october:passwd
+    october:up
+    october:update
+    october:util in /home/me/projs/octoberCMS/vendor/symfony/console/Application.php:646
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(236): Symfony\Component\Console\Application->find()
+#1 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#4 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#5 {main}  
+[2020-10-10 22:17:48] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "october" is not defined.
+
+Did you mean one of these?
+    october:down
+    october:env
+    october:fresh
+    october:install
+    october:mirror
+    october:passwd
+    october:up
+    october:update
+    october:util in /home/me/projs/octoberCMS/vendor/symfony/console/Application.php:646
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(236): Symfony\Component\Console\Application->find()
+#1 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#4 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#5 {main}  
+[2020-10-10 22:28:24] development.ERROR: ErrorException: Division by zero in /home/me/projs/octoberCMS/storage/cms/cache/9b/38/ajax.htm.php:21
+Stack trace:
+#0 /home/me/projs/octoberCMS/storage/cms/cache/9b/38/ajax.htm.php(21): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(860): Cms5f82357234ce5493685230_65be39318ad7e84eaa1e6ede7ca188b6Class->onTest()
+#2 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(742): Cms\Classes\Controller->runAjaxHandler()
+#3 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(374): Cms\Classes\Controller->execAjaxHandlers()
+#4 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(225): Cms\Classes\Controller->runPage()
+#5 /home/me/projs/octoberCMS/modules/cms/classes/CmsController.php(50): Cms\Classes\Controller->run()
+#6 [internal function]: Cms\Classes\CmsController->run()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\Routing\Route->runController()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\Routing\Route->run()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#14 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#15 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#16 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#25 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#26 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\Pipeline\Pipeline->then()
+#30 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\Routing\Router->runRouteWithinStack()
+#31 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\Routing\Router->runRoute()
+#32 /home/me/projs/octoberCMS/vendor/october/rain/src/Router/CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute()
+#33 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): October\Rain\Router\CoreRouter->dispatch()
+#34 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#35 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#36 /home/me/projs/octoberCMS/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php(25): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#37 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): October\Rain\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#38 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#39 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#40 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#41 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#42 /home/me/projs/octoberCMS/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
+#43 /home/me/projs/octoberCMS/server.php(17): require_once('/home/me/projs/...')
+#44 {main}  
+[2020-10-10 23:25:04] development.ERROR: October\Rain\Exception\SystemException: Component class not found "\Test\Contactform\Components\MyComponent". Check the component plugin. in /home/me/projs/octoberCMS/modules/cms/classes/ComponentManager.php:211
+Stack trace:
+#0 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(1431): Cms\Classes\ComponentManager->makeComponent()
+#1 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(662): Cms\Classes\Controller->addComponent()
+#2 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(334): Cms\Classes\Controller->initComponents()
+#3 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(225): Cms\Classes\Controller->runPage()
+#4 /home/me/projs/octoberCMS/modules/cms/classes/CmsController.php(50): Cms\Classes\Controller->run()
+#5 [internal function]: Cms\Classes\CmsController->run()
+#6 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\Routing\Route->runController()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\Routing\Route->run()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#16 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#26 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\Pipeline\Pipeline->then()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\Routing\Router->runRouteWithinStack()
+#30 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\Routing\Router->runRoute()
+#31 /home/me/projs/octoberCMS/vendor/october/rain/src/Router/CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute()
+#32 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): October\Rain\Router\CoreRouter->dispatch()
+#33 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#34 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#35 /home/me/projs/octoberCMS/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php(25): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#36 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): October\Rain\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#37 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#38 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#39 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#40 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#41 /home/me/projs/octoberCMS/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
+#42 /home/me/projs/octoberCMS/server.php(17): require_once('/home/me/projs/...')
+#43 {main}  
+[2020-10-10 23:25:04] development.ERROR: October\Rain\Exception\SystemException: Component class not found "\Test\Contactform\Components\MyComponent". Check the component plugin. in /home/me/projs/octoberCMS/modules/cms/classes/ComponentManager.php:211
+Stack trace:
+#0 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(1431): Cms\Classes\ComponentManager->makeComponent()
+#1 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(662): Cms\Classes\Controller->addComponent()
+#2 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(334): Cms\Classes\Controller->initComponents()
+#3 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(225): Cms\Classes\Controller->runPage()
+#4 /home/me/projs/octoberCMS/modules/cms/classes/CmsController.php(50): Cms\Classes\Controller->run()
+#5 [internal function]: Cms\Classes\CmsController->run()
+#6 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\Routing\Route->runController()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\Routing\Route->run()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#16 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#26 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\Pipeline\Pipeline->then()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\Routing\Router->runRouteWithinStack()
+#30 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\Routing\Router->runRoute()
+#31 /home/me/projs/octoberCMS/vendor/october/rain/src/Router/CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute()
+#32 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): October\Rain\Router\CoreRouter->dispatch()
+#33 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#34 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#35 /home/me/projs/octoberCMS/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php(25): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#36 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): October\Rain\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#37 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#38 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#39 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#40 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#41 /home/me/projs/octoberCMS/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
+#42 /home/me/projs/octoberCMS/server.php(17): require_once('/home/me/projs/...')
+#43 {main}  
+[2020-10-10 23:26:39] development.ERROR: Swift_TransportException: Expected response code 250 but got code "550", with message "550 5.7.1 Relaying denied
+" in /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode()
+#1 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand()
+#2 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(390): Swift_Transport_EsmtpTransport->executeCommand()
+#3 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(497): Swift_Transport_AbstractSmtpTransport->doDataCommand()
+#4 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(516): Swift_Transport_AbstractSmtpTransport->doMailTransaction()
+#5 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(206): Swift_Transport_AbstractSmtpTransport->sendTo()
+#6 /home/me/projs/octoberCMS/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(71): Swift_Transport_AbstractSmtpTransport->send()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(451): Swift_Mailer->send()
+#8 /home/me/projs/octoberCMS/vendor/october/rain/src/Mail/Mailer.php(115): Illuminate\Mail\Mailer->sendSwiftMessage()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): October\Rain\Mail\Mailer->send()
+#10 /home/me/projs/octoberCMS/plugins/test/contactform/components/ContactForm.php(30): Illuminate\Support\Facades\Facade::__callStatic()
+#11 /home/me/projs/octoberCMS/modules/cms/classes/ComponentBase.php(187): Test\Contactform\Components\ContactForm->onSend()
+#12 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(874): Cms\Classes\ComponentBase->runAjaxHandler()
+#13 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(742): Cms\Classes\Controller->runAjaxHandler()
+#14 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(374): Cms\Classes\Controller->execAjaxHandlers()
+#15 /home/me/projs/octoberCMS/modules/cms/classes/Controller.php(225): Cms\Classes\Controller->runPage()
+#16 /home/me/projs/octoberCMS/modules/cms/classes/CmsController.php(50): Cms\Classes\Controller->run()
+#17 [internal function]: Cms\Classes\CmsController->run()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\Routing\Route->runController()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\Routing\Route->run()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#25 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#26 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#30 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#31 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle()
+#32 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#33 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#34 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#35 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#36 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#37 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#38 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#39 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#40 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\Pipeline\Pipeline->then()
+#41 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\Routing\Router->runRouteWithinStack()
+#42 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\Routing\Router->runRoute()
+#43 /home/me/projs/octoberCMS/vendor/october/rain/src/Router/CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute()
+#44 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): October\Rain\Router\CoreRouter->dispatch()
+#45 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#46 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#47 /home/me/projs/octoberCMS/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php(25): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#48 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): October\Rain\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#49 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#50 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#51 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#52 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#53 /home/me/projs/octoberCMS/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
+#54 /home/me/projs/octoberCMS/server.php(17): require_once('/home/me/projs/...')
+#55 {main}  
+[2020-10-21 21:51:39] development.ERROR: Exception: A node cannot be moved to a descendant of itself. in /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Traits/NestedTree.php:1028
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Traits/NestedTree.php(906): BenFreke\MenuManager\Models\Menu->validateMove()
+#1 /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Traits/NestedTree.php(327): BenFreke\MenuManager\Models\Menu->moveTo()
+#2 /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Traits/NestedTree.php(282): BenFreke\MenuManager\Models\Menu->moveAfter()
+#3 /home/me/projs/octoberCMS/plugins/benfreke/menumanager/controllers/Menus.php(99): BenFreke\MenuManager\Models\Menu->makeRoot()
+#4 [internal function]: BenFreke\MenuManager\Controllers\Menus->reorder_onMove()
+#5 /home/me/projs/octoberCMS/modules/backend/classes/Controller.php(620): call_user_func_array()
+#6 /home/me/projs/octoberCMS/modules/backend/classes/Controller.php(478): Backend\Classes\Controller->runAjaxHandler()
+#7 /home/me/projs/octoberCMS/modules/backend/classes/Controller.php(277): Backend\Classes\Controller->execAjaxHandlers()
+#8 /home/me/projs/octoberCMS/modules/backend/classes/BackendController.php(165): Backend\Classes\Controller->run()
+#9 [internal function]: Backend\Classes\BackendController->run()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\Routing\Route->runController()
+#14 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\Routing\Route->run()
+#15 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#16 /home/me/projs/octoberCMS/modules/backend/classes/BackendController.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(131): Backend\Classes\BackendController->Backend\Classes\{closure}()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#25 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#26 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#30 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#31 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#32 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#33 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#34 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#35 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\Pipeline\Pipeline->then()
+#36 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\Routing\Router->runRouteWithinStack()
+#37 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\Routing\Router->runRoute()
+#38 /home/me/projs/octoberCMS/vendor/october/rain/src/Router/CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute()
+#39 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): October\Rain\Router\CoreRouter->dispatch()
+#40 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#41 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#42 /home/me/projs/octoberCMS/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php(25): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#43 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): October\Rain\Foundation\Http\Middleware\CheckForMaintenanceMode->handle()
+#44 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#45 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}()
+#46 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Pipeline\Pipeline->then()
+#47 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#48 /home/me/projs/octoberCMS/index.php(43): Illuminate\Foundation\Http\Kernel->handle()
+#49 /home/me/projs/octoberCMS/server.php(17): require_once('/home/me/projs/...')
+#50 {main}  
+[2020-11-13 21:19:22] development.ERROR: PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/me/projs/octoberCMS/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct()
+#1 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#4 /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Connectors/ConnectionFactory.php(29): Illuminate\Database\Connectors\MySqlConnector->connect()
+#5 [internal function]: October\Rain\Database\Connectors\ConnectionFactory->October\Rain\Database\Connectors\{closure}()
+#6 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(915): call_user_func()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(940): Illuminate\Database\Connection->getPdo()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(325): Illuminate\Database\Connection->getPdoForSelect()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(333): Illuminate\Database\Connection->run()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\Database\Connection->select()
+#14 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Database\Schema\MySqlBuilder->hasTable()
+#15 /home/me/projs/octoberCMS/modules/system/classes/UpdateManager.php(135): Illuminate\Support\Facades\Facade::__callStatic()
+#16 /home/me/projs/octoberCMS/modules/system/console/OctoberUp.php(35): System\Classes\UpdateManager->update()
+#17 [internal function]: System\Console\OctoberUp->handle()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\Container\BoundMethod::call()
+#22 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\Container\Container->call()
+#23 /home/me/projs/octoberCMS/vendor/symfony/console/Command/Command.php(255): Illuminate\Console\Command->execute()
+#24 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\Component\Console\Command\Command->run()
+#25 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(987): Illuminate\Console\Command->run()
+#26 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand()
+#27 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#29 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#30 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#31 {main}
+
+Next Doctrine\DBAL\Driver\PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/me/projs/octoberCMS/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:47
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct()
+#1 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /home/me/projs/octoberCMS/vendor/october/rain/src/Database/Connectors/ConnectionFactory.php(29): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: October\Rain\Database\Connectors\ConnectionFactory->October\Rain\Database\Connectors\{closure}()
+#5 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(915): call_user_func()
+#6 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(940): Illuminate\Database\Connection->getPdo()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(325): Illuminate\Database\Connection->getPdoForSelect()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(333): Illuminate\Database\Connection->run()
+#12 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\Database\Connection->select()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Database\Schema\MySqlBuilder->hasTable()
+#14 /home/me/projs/octoberCMS/modules/system/classes/UpdateManager.php(135): Illuminate\Support\Facades\Facade::__callStatic()
+#15 /home/me/projs/octoberCMS/modules/system/console/OctoberUp.php(35): System\Classes\UpdateManager->update()
+#16 [internal function]: System\Console\OctoberUp->handle()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#19 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod()
+#20 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\Container\BoundMethod::call()
+#21 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\Container\Container->call()
+#22 /home/me/projs/octoberCMS/vendor/symfony/console/Command/Command.php(255): Illuminate\Console\Command->execute()
+#23 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\Component\Console\Command\Command->run()
+#24 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(987): Illuminate\Console\Command->run()
+#25 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand()
+#26 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#27 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#28 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#29 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#30 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from information_schema.tables where table_schema = october and table_name = migrations) in /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback()
+#1 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Connection.php(333): Illuminate\Database\Connection->run()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(18): Illuminate\Database\Connection->select()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Database\Schema\MySqlBuilder->hasTable()
+#4 /home/me/projs/octoberCMS/modules/system/classes/UpdateManager.php(135): Illuminate\Support\Facades\Facade::__callStatic()
+#5 /home/me/projs/octoberCMS/modules/system/console/OctoberUp.php(35): System\Classes\UpdateManager->update()
+#6 [internal function]: System\Console\OctoberUp->handle()
+#7 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array()
+#8 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#9 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod()
+#10 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\Container\BoundMethod::call()
+#11 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\Container\Container->call()
+#12 /home/me/projs/octoberCMS/vendor/symfony/console/Command/Command.php(255): Illuminate\Console\Command->execute()
+#13 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\Component\Console\Command\Command->run()
+#14 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(987): Illuminate\Console\Command->run()
+#15 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand()
+#16 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#17 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#18 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#19 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#20 {main}  
+[2020-11-13 21:28:27] development.ERROR: Symfony\Component\Console\Exception\RuntimeException: Not enough arguments (missing: "name"). in /home/me/projs/octoberCMS/vendor/symfony/console/Input/Input.php:76
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Command/Command.php(250): Symfony\Component\Console\Input\Input->validate()
+#1 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\Component\Console\Command\Command->run()
+#2 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(987): Illuminate\Console\Command->run()
+#3 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#5 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#6 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#7 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#8 {main}  
+[2020-11-13 21:28:34] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: There are no commands defined in the "plugins" namespace.
+
+Did you mean this?
+    plugin in /home/me/projs/octoberCMS/vendor/symfony/console/Application.php:574
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(627): Symfony\Component\Console\Application->findNamespace()
+#1 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(236): Symfony\Component\Console\Application->find()
+#2 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#4 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#5 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#6 {main}  
+[2020-11-13 21:28:45] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "october" is not defined.
+
+Did you mean one of these?
+    october:down
+    october:env
+    october:fresh
+    october:install
+    october:mirror
+    october:passwd
+    october:up
+    october:update
+    october:util in /home/me/projs/octoberCMS/vendor/symfony/console/Application.php:646
+Stack trace:
+#0 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(236): Symfony\Component\Console\Application->find()
+#1 /home/me/projs/octoberCMS/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#2 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\Component\Console\Application->run()
+#3 /home/me/projs/octoberCMS/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\Console\Application->run()
+#4 /home/me/projs/octoberCMS/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#5 {main}  
